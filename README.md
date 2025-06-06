@@ -89,6 +89,50 @@ Visit our platform: [https://datafly-high-dimensional-data.onrender.com/](https:
 
 ---
 
+## Tech Stack
+
+### **Backend Framework**
+- **Flask 2.2.2**: Core web framework for API endpoints and request handling
+- **Flask-SocketIO 5.4.1**: Real-time communication for live updates
+- **Flask-CORS 4.0.0**: Cross-origin resource sharing support
+- **Gunicorn 20.1.0**: Production WSGI server
+- **Eventlet 0.33.3**: Asynchronous networking support
+
+### **Data Processing & Analytics**
+- **Pandas 2.0.3**: Data manipulation and analysis
+- **NumPy 1.24.3**: Numerical computing and array operations
+- **SciPy**: Scientific computing (via scikit-learn dependencies)
+
+### **Machine Learning & Dimensionality Reduction**
+- **Scikit-learn 1.4.1**: PCA, t-SNE, and core ML algorithms
+- **UMAP-learn 0.5.7**: Uniform Manifold Approximation and Projection
+- **Matplotlib 3.9.3**: Statistical visualization and plotting
+
+### **Graph Processing & Network Analysis**
+- **NetworkX 3.1**: Graph creation, manipulation, and analysis
+- **PyGraphviz 1.14**: GraphViz integration for .gv file processing
+- **Pydot 1.4.2**: Python interface to GraphViz's Dot language
+
+### **Frontend Visualization**
+- **Three.js**: High-performance 3D WebGL rendering engine
+- **Chart.js**: Interactive metrics charts and data visualization
+- **HTML5/CSS3/JavaScript**: Modern web technologies for responsive UI
+
+### **File Processing**
+- **OpenPyXL 3.1.2**: Excel file (.xlsx) reading and writing
+- **xlrd 2.0.1**: Legacy Excel file (.xls) support
+
+### **System & Performance**
+- **PSUtil 5.9.0**: System and process monitoring
+- **Werkzeug 2.2.2**: WSGI utility library
+
+### **Development & Deployment**
+- **Docker**: Containerization support (Dockerfile included)
+- **Python 3.8+**: Core runtime environment
+
+---
+
+
 ### Basic Workflow
 
 1. **Data Input:**
